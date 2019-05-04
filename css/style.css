@@ -1,0 +1,50 @@
+html,
+body,
+.view {
+    height: 100%;
+}
+.carousel {
+    height: 50%;
+}
+.carousel .carousel-inner {
+    height: 100%;
+}
+.carousel .carousel-inner .carousel-item,
+.carousel .carousel-inner .active{
+    height: 100%;
+}
+@media (max-width: 776px) {
+    .carousel {
+        height: 100%;
+    }
+}
+.page-footer {
+    background-color: #929FBA;
+}
+.btn-rounded {
+    border-radius: 19px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+}
+#circle {
+    width: 42px;
+    height: 42px;
+    overflow: hidden;
+    background: #fff;
+    padding: 2px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: #aaa 1px solid;
+    box-shadow: 0 1px 1px 1px #bbb;
+    -moz-box-shadow: 0 1px 1px 1px #bbb;
+    -webkit-box-shadow: 0 1px 1px 1px #bbb;
+}
+#circle img {
+    display: block;
+    width:100%;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
